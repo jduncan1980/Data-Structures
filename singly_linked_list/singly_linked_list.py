@@ -96,5 +96,3 @@ class LinkedList:
     # return False
     return False
   
-  def get_max(self):
-    pass

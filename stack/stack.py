@@ -122,11 +122,7 @@ class Stack:
 
     def pop(self):      
       if self.size > 0:
-         self.size -= 1
-      return self.storage.remove_tail()
+        self.size -= 1
+        return self.storage.remove_tail()
        
 
-one = Stack()
-print(len(one))
-one.push(1)
-print(len(one))
